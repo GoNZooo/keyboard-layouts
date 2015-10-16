@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SCRIPTDIR="scripts"
-LAYOUTDIR="layouts"
-SYMBOLDIR="/usr/share/X11/xkb/symbols"
+SCRIPTS="scripts"
+LAYOUTS="layouts"
+SYMBOLS="/usr/share/X11/xkb/symbols"
+BINS="$HOME/bin"
 
-sudo cp $LAYOUTDIR/* $SYMBOLDIR/
-mkdir -p $HOME/bin
-ln -s $SCRIPTDIR/* $HOME/bin/
+sudo cp $LAYOUTS/* $SYMBOLS/ && mkdir -p $HOME/bin && ln -s $SCRIPTS/* $BINS
+
