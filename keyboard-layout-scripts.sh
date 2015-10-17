@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SCRIPTS="scripts"
-LAYOUTS="layouts"
+SCRIPTS="./scripts"
+LAYOUTS="./layouts"
 SYMBOLS="/usr/share/X11/xkb/symbols"
 BINS="$HOME/bin"
 
